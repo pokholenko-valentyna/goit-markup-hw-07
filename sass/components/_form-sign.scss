@@ -1,22 +1,22 @@
-.footer-sign {
+.footer__sign {
     margin-left: 93px;
     margin-bottom: 34px;
     margin-top: 12px;
     margin-right: 0;
     color: var(--primary-white-color);
 }
-.sign-title {
+.sign__title {
     display: block;
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
-.sign-form {
+.sign__form {
     display: flex;
     align-items: center;
 }
-.sign-input {
+.sign__input {
     width: 358px;
     margin-right: 12px;
     padding: 15px 16px;
@@ -34,20 +34,20 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--bg-dark);
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
-.sign-input:focus {
-    border: 1px solid var(--accent-color);
-}
-.sign-btn {
+.sign__btn {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.sign-btn-text {
+.form-btn__text {
     display: inline-block;
     text-align: center;
 }
-.sign-btn-icon {
+.form-btn__icon {
     fill: var(--primary-white-color);
     margin-left: 10px;
 }

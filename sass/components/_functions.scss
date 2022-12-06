@@ -3,19 +3,17 @@
     line-height: 1.17;
     text-align: center;
 }
-.functions-list {
-    display: flex;
-}
-.functions-title {
+.functions__title {
     margin-bottom: 50px;
 }
-.function-item {
+.unit-list {
+    display: flex;
+    gap: 30px;
+}
+.unit-list__item {
     position: relative;
 }
-.function-item + .function-item {
-    margin-left: 30px;
-}
-.functions-item-title {
+.unit-list__title-wrap {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -25,12 +23,11 @@
     padding-top: 27px;
     padding-bottom: 27px;
 }
-.function-item-title {
+.unit-list__title {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
     display: block;
-
 }

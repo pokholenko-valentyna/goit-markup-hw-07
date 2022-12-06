@@ -10,10 +10,10 @@
     url(../images/bg-img.jpg);
     flex-grow: 1;
 }
-.hero .container {
+.hero__container {
    text-align: center; 
 }
-.hero-title {
+.hero__title {
     width: 696px;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
     color: var(--primary-white-color);
 }
-.hero-button {
+.hero__button {
     display: inline-block;
     border-radius: 4px;
     padding: 10px 32px;
