@@ -1,0 +1,36 @@
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+.functions-list {
+    display: flex;
+}
+.functions-title {
+    margin-bottom: 50px;
+}
+.function-item {
+    position: relative;
+}
+.function-item + .function-item {
+    margin-left: 30px;
+}
+.functions-item-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.function-item-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+
+}
